@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>API Template</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <h1 id= "title">
+      <img
+         src= "https://cdn.glitch.com/107fbf23-be05-45a3-9bcb-33e71a4aa407%2Fthumbnails%2F07af0359-81a1-4c29-b82a-2ed06376111f.image.png?1589060130436"  
+           
+          />
+      
+      Rick And Morty API
+    </h1>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Rick And Morty</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" href="#">Characters</a>
+      <a class="nav-item nav-link" href="#">Episodes</a>
+      <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Shop</a>
+    </div>
+  </div>
+</nav>
+    
+  <div class="card bg-dark text-white">
+  <img src="https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2019%2F05%2Frick-and-morty-diadora-game-camaro-apparel-collection-release-information-2.jpg?quality=95&w=1170&cbr=1&q=90&fit=max" class="card-img" alt="...">
+  <div class="card-img-overlay">
+    <h5 class="sneaker-title">CHECK IT OUT!</h5>
+    <p class="sneaker-text">Diadora has once again teamed up with Adult Swim‘s cult animated sitcom Rick and Morty for the release of two intergalactic themed sneakers and an accompanying apparel collection.</p>
+    <p class="sneaker-text">Retail is approximately $130USD</p>
+  </div>
+</div>  
+    
+    
+  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F6%2F2019%2F11%2Frick-and-morty-season-4-2000.jpg&q=85" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://images3.alphacoders.com/812/812062.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://1.bp.blogspot.com/-QD93sEpSuU8/Xfg8lF07AaI/AAAAAAAAB-8/FU4u55EUtOkQIu3Smk9L-T2e3C2SxGMKwCLcBGAsYHQ/s1600/rick%2Band%2Bmorty%2Bdesktop%2Bwallpaper.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+    <input id="searchTerm" type="text" placeholder="Enter search term" />
+    <button id="search">
+      Search
+    </button>
+    <div id="content">
+      
+    </div>
+   <div class="card">
+  <div class="card-header">
+    Featured
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Fan of the show ?</h5>
+    <p class="card-text">Be on the look out for new episodes.In the meantime, catch up on the latest season on adult swim</p>
+    <a href="https://www.adultswim.com/videos/rick-and-morty" class="btn btn-primary">Click Here to Watch</a>
+  </div>
+</div>
+  </body>
+</html>
